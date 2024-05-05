@@ -5,8 +5,8 @@
     body {
         font-family: 'Ubuntu Sans', sans-serif;
         font-weight: 400;
-        background-image: url(../img/Background.png);
-        background-size: cover;
+        background-image: url(../img/bg.png);
+        background-size:cover;
         background-repeat: no-repeat;
     }
     #navbar{
@@ -21,6 +21,7 @@
     }
     #containerpadre{
         margin-top: 100px;
+        opacity: 0.9;
     }
     #container-inicio, #container-certificados, #container-contacto{
         border: 1px solid #333;
@@ -50,19 +51,27 @@
         background-color: #fd7e14;
     }
     .btn-insta{
-        background: #833ab4;
-        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
         background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
         color: white;
     }
     .btn-insta:hover{
         color: white;
-        background: #6b2d94;
-        background: -webkit-linear-gradient(to right, #fcb045cc, #fd1d1db9, #833ab4c5); 
         background: linear-gradient(to right, #fcb045cc, #fd1d1db9, #833ab4c5); 
     }
     p{
         text-align: justify;
         line-height: 20pt;
         font-size: 15pt;
+    }
+    .bg-python{
+        background-color: #306796;
+    }
+    .bg-java{
+        background-color: #E10B10;
+    }
+    .bg-react{
+        background-color: rgb(29, 209, 209);
+    }
+    .bg-django{
+        background-color: #0C4B33;
     }
