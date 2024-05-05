@@ -1,4 +1,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+    html{
+        scroll-behavior: smooth;
+    }
     body {
         font-family: 'Ubuntu Sans', sans-serif;
         font-weight: 400;
@@ -6,7 +9,19 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
+    #navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    #a_navbar:hover{
+        color: aqua;
+        transform: scale(1.1);
+    }
+    #containerpadre{
+        margin-top: 100px;
+    }
     #container-inicio, #container-certificados, #container-contacto{
         border: 1px solid #333;
         border-radius: 20px;
@@ -33,6 +48,18 @@
     }
     .bg-orange{
         background-color: #fd7e14;
+    }
+    .btn-insta{
+        background: #833ab4;
+        background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+        background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+        color: white;
+    }
+    .btn-insta:hover{
+        color: white;
+        background: #6b2d94;
+        background: -webkit-linear-gradient(to right, #fcb045cc, #fd1d1db9, #833ab4c5); 
+        background: linear-gradient(to right, #fcb045cc, #fd1d1db9, #833ab4c5); 
     }
     p{
         text-align: justify;
